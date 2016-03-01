@@ -168,6 +168,7 @@ namespace NServiceKit.Redis
         public readonly static byte[] Desc = "DESC".ToUtf8Bytes();
         public readonly static byte[] Alpha = "ALPHA".ToUtf8Bytes();
         public readonly static byte[] Store = "STORE".ToUtf8Bytes();
+        public readonly static byte[] Weights = "WEIGHTS".ToUtf8Bytes();
 
         public readonly static byte[] Eval = "EVAL".ToUtf8Bytes();
         public readonly static byte[] EvalSha = "EVALSHA".ToUtf8Bytes();
@@ -181,5 +182,7 @@ namespace NServiceKit.Redis
         public readonly static byte[] Px = "PX".ToUtf8Bytes();
         public readonly static byte[] Nx = "NX".ToUtf8Bytes();
         public readonly static byte[] Xx = "XX".ToUtf8Bytes();
+        
+        public readonly static byte[] Scan = "SCAN".ToUtf8Bytes();
     }
 }
